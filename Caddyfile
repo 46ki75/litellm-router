@@ -1,0 +1,10 @@
+# /etc/caddy/Caddyfile
+# caddy fmt --overwrite
+
+{
+    email me@ikuma.cloud
+}
+
+litellm.liminal.ikuma.cloud {
+    reverse_proxy 127.0.0.1:23458
+}
