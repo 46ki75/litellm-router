@@ -5,6 +5,6 @@
     email me@ikuma.cloud
 }
 
-litellm.liminal.ikuma.cloud {
+litellm.giraffe.ikuma.cloud {
     reverse_proxy 127.0.0.1:23458
 }
