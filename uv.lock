@@ -984,7 +984,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "fastapi", specifier = ">=0.136.3,<0.140.7" },
+    { name = "fastapi", specifier = ">=0.136.3,<0.162.3" },
     { name = "litellm", extras = ["proxy"], specifier = ">=1.96.2" },
 ]
 
